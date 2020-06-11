@@ -23,10 +23,14 @@ class ViewController: UIViewController {
         
         if let name = storedName as? String {
             nameLabel.text = name
+
+            nameLabel.text = "Name: \(name)"
+            
         }
         
         if let birthday = storedBirthDay as? String {
             birthdayLabel.text = birthday
+            birthdayLabel.text = "Birthday: \(birthday)"
         }
     }
 
@@ -47,10 +51,12 @@ class ViewController: UIViewController {
         
         if (storedName as? String) != nil {
             UserDefaults.standard.removeObject(forKey: "name")
+            nameLabel.text = "Name: "
         }
         
         if (storedBirthDay as? String) != nil {
             UserDefaults.standard.removeObject(forKey: "birthday")
+            birthdayLabel.text = "Birthday: "
         }
         
         
