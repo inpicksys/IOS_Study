@@ -26,6 +26,7 @@ class RegisterViewController: UIViewController {
     @IBOutlet weak var passwordTextfield: UITextField!
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         passwordTextfield.becomeFirstResponder()
         passwordTextfield.diableAutofill()
         if #available(iOS 12, *) {
@@ -47,7 +48,7 @@ class RegisterViewController: UIViewController {
                     print(e.localizedDescription) // add this shit to error label
                 } else {
                     // Navigate to chat
-                    self.performSegue(withIdentifier: "RegisterToChat", sender: self)
+                    self.performSegue(withIdentifier: K.registerSegue, sender: self)
                 }
                 
             })
