@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		571ADC60258CAB4500B86A1D /* MishaCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ADC5F258CAB4500B86A1D /* MishaCardApp.swift */; };
-		571ADC62258CAB4500B86A1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ADC61258CAB4500B86A1D /* ContentView.swift */; };
-		571ADC64258CAB4700B86A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ADC63258CAB4700B86A1D /* Assets.xcassets */; };
-		571ADC67258CAB4700B86A1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ADC66258CAB4700B86A1D /* Preview Assets.xcassets */; };
-		571ADC7125914A7000B86A1D /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 571ADC7025914A7000B86A1D /* Pacifico-Regular.ttf */; };
-		571ADC7425914B6E00B86A1D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571ADC7325914B6E00B86A1D /* Launch Screen.storyboard */; };
-		571ADC7B259417A400B86A1D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571ADC7A259417A400B86A1D /* InfoView.swift */; };
+		EB2BE4FA239524DB00FB933B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE4F9239524DB00FB933B /* AppDelegate.swift */; };
+		EB2BE4FE239524DB00FB933B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE4FD239524DB00FB933B /* ViewController.swift */; };
+		EB2BE501239524DB00FB933B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE4FF239524DB00FB933B /* Main.storyboard */; };
+		EB2BE503239524DC00FB933B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE502239524DC00FB933B /* Assets.xcassets */; };
+		EB2BE506239524DC00FB933B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE504239524DC00FB933B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		571ADC5C258CAB4500B86A1D /* MishaCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MishaCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		571ADC5F258CAB4500B86A1D /* MishaCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MishaCardApp.swift; sourceTree = "<group>"; };
-		571ADC61258CAB4500B86A1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		571ADC63258CAB4700B86A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		571ADC66258CAB4700B86A1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		571ADC68258CAB4700B86A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		571ADC7025914A7000B86A1D /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
-		571ADC7325914B6E00B86A1D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		571ADC7A259417A400B86A1D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		EB2BE4F6239524DB00FB933B /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2BE4F9239524DB00FB933B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB2BE4FD239524DB00FB933B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB2BE500239524DB00FB933B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB2BE502239524DC00FB933B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB2BE505239524DC00FB933B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB2BE507239524DC00FB933B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		571ADC59258CAB4500B86A1D /* Frameworks */ = {
+		EB2BE4F3239524DB00FB933B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,88 +35,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		571ADC53258CAB4500B86A1D = {
+		EB2BE4ED239524DB00FB933B = {
 			isa = PBXGroup;
 			children = (
-				571ADC5E258CAB4500B86A1D /* MishaCard */,
-				571ADC5D258CAB4500B86A1D /* Products */,
+				EB2BE4F8239524DB00FB933B /* Todoey */,
+				EB2BE4F7239524DB00FB933B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		571ADC5D258CAB4500B86A1D /* Products */ = {
+		EB2BE4F7239524DB00FB933B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				571ADC5C258CAB4500B86A1D /* MishaCard.app */,
+				EB2BE4F6239524DB00FB933B /* Todoey.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		571ADC5E258CAB4500B86A1D /* MishaCard */ = {
+		EB2BE4F8239524DB00FB933B /* Todoey */ = {
 			isa = PBXGroup;
 			children = (
-				571ADC6F258CB86A00B86A1D /* fonts */,
-				571ADC5F258CAB4500B86A1D /* MishaCardApp.swift */,
-				571ADC7A259417A400B86A1D /* InfoView.swift */,
-				571ADC61258CAB4500B86A1D /* ContentView.swift */,
-				571ADC63258CAB4700B86A1D /* Assets.xcassets */,
-				571ADC68258CAB4700B86A1D /* Info.plist */,
-				571ADC65258CAB4700B86A1D /* Preview Content */,
-				571ADC7325914B6E00B86A1D /* Launch Screen.storyboard */,
+				EB2BE4F9239524DB00FB933B /* AppDelegate.swift */,
+				EB2BE4FD239524DB00FB933B /* ViewController.swift */,
+				EB2BE4FF239524DB00FB933B /* Main.storyboard */,
+				EB2BE502239524DC00FB933B /* Assets.xcassets */,
+				EB2BE504239524DC00FB933B /* LaunchScreen.storyboard */,
+				EB2BE507239524DC00FB933B /* Info.plist */,
 			);
-			path = MishaCard;
-			sourceTree = "<group>";
-		};
-		571ADC65258CAB4700B86A1D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				571ADC66258CAB4700B86A1D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		571ADC6F258CB86A00B86A1D /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				571ADC7025914A7000B86A1D /* Pacifico-Regular.ttf */,
-			);
-			path = fonts;
+			path = Todoey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		571ADC5B258CAB4500B86A1D /* MishaCard */ = {
+		EB2BE4F5239524DB00FB933B /* Todoey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 571ADC6B258CAB4700B86A1D /* Build configuration list for PBXNativeTarget "MishaCard" */;
+			buildConfigurationList = EB2BE50A239524DC00FB933B /* Build configuration list for PBXNativeTarget "Todoey" */;
 			buildPhases = (
-				571ADC58258CAB4500B86A1D /* Sources */,
-				571ADC59258CAB4500B86A1D /* Frameworks */,
-				571ADC5A258CAB4500B86A1D /* Resources */,
+				EB2BE4F2239524DB00FB933B /* Sources */,
+				EB2BE4F3239524DB00FB933B /* Frameworks */,
+				EB2BE4F4239524DB00FB933B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MishaCard;
-			productName = MishaCard;
-			productReference = 571ADC5C258CAB4500B86A1D /* MishaCard.app */;
+			name = Todoey;
+			productName = Todoey;
+			productReference = EB2BE4F6239524DB00FB933B /* Todoey.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		571ADC54258CAB4500B86A1D /* Project object */ = {
+		EB2BE4EE239524DB00FB933B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "App Brewery";
 				TargetAttributes = {
-					571ADC5B258CAB4500B86A1D = {
-						CreatedOnToolsVersion = 12.3;
+					EB2BE4F5239524DB00FB933B = {
+						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 571ADC57258CAB4500B86A1D /* Build configuration list for PBXProject "MishaCard" */;
+			buildConfigurationList = EB2BE4F1239524DB00FB933B /* Build configuration list for PBXProject "Todoey" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,45 +107,62 @@
 				en,
 				Base,
 			);
-			mainGroup = 571ADC53258CAB4500B86A1D;
-			productRefGroup = 571ADC5D258CAB4500B86A1D /* Products */;
+			mainGroup = EB2BE4ED239524DB00FB933B;
+			productRefGroup = EB2BE4F7239524DB00FB933B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				571ADC5B258CAB4500B86A1D /* MishaCard */,
+				EB2BE4F5239524DB00FB933B /* Todoey */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		571ADC5A258CAB4500B86A1D /* Resources */ = {
+		EB2BE4F4239524DB00FB933B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571ADC7125914A7000B86A1D /* Pacifico-Regular.ttf in Resources */,
-				571ADC67258CAB4700B86A1D /* Preview Assets.xcassets in Resources */,
-				571ADC7425914B6E00B86A1D /* Launch Screen.storyboard in Resources */,
-				571ADC64258CAB4700B86A1D /* Assets.xcassets in Resources */,
+				EB2BE506239524DC00FB933B /* LaunchScreen.storyboard in Resources */,
+				EB2BE503239524DC00FB933B /* Assets.xcassets in Resources */,
+				EB2BE501239524DB00FB933B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		571ADC58258CAB4500B86A1D /* Sources */ = {
+		EB2BE4F2239524DB00FB933B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				571ADC62258CAB4500B86A1D /* ContentView.swift in Sources */,
-				571ADC7B259417A400B86A1D /* InfoView.swift in Sources */,
-				571ADC60258CAB4500B86A1D /* MishaCardApp.swift in Sources */,
+				EB2BE4FE239524DB00FB933B /* ViewController.swift in Sources */,
+				EB2BE4FA239524DB00FB933B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		EB2BE4FF239524DB00FB933B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2BE500239524DB00FB933B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB2BE504239524DC00FB933B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2BE505239524DC00FB933B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		571ADC69258CAB4700B86A1D /* Debug */ = {
+		EB2BE508239524DC00FB933B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,7 +188,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -217,7 +212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -227,7 +222,7 @@
 			};
 			name = Debug;
 		};
-		571ADC6A258CAB4700B86A1D /* Release */ = {
+		EB2BE509239524DC00FB933B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,7 +248,6 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -272,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,44 +276,36 @@
 			};
 			name = Release;
 		};
-		571ADC6C258CAB4700B86A1D /* Debug */ = {
+		EB2BE50B239524DC00FB933B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MishaCard/Preview Content\"";
-				DEVELOPMENT_TEAM = 22UD4XR723;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MishaCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Todoey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = inpicksys.MishaCard;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.todoey-ios13.Todoey";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		571ADC6D258CAB4700B86A1D /* Release */ = {
+		EB2BE50C239524DC00FB933B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MishaCard/Preview Content\"";
-				DEVELOPMENT_TEAM = 22UD4XR723;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MishaCard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Todoey/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = inpicksys.MishaCard;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.londonappbrewery.todoey-ios13.Todoey";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		571ADC57258CAB4500B86A1D /* Build configuration list for PBXProject "MishaCard" */ = {
+		EB2BE4F1239524DB00FB933B /* Build configuration list for PBXProject "Todoey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				571ADC69258CAB4700B86A1D /* Debug */,
-				571ADC6A258CAB4700B86A1D /* Release */,
+				EB2BE508239524DC00FB933B /* Debug */,
+				EB2BE509239524DC00FB933B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		571ADC6B258CAB4700B86A1D /* Build configuration list for PBXNativeTarget "MishaCard" */ = {
+		EB2BE50A239524DC00FB933B /* Build configuration list for PBXNativeTarget "Todoey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				571ADC6C258CAB4700B86A1D /* Debug */,
-				571ADC6D258CAB4700B86A1D /* Release */,
+				EB2BE50B239524DC00FB933B /* Debug */,
+				EB2BE50C239524DC00FB933B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 571ADC54258CAB4500B86A1D /* Project object */;
+	rootObject = EB2BE4EE239524DB00FB933B /* Project object */;
 }
