@@ -92,7 +92,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         let distance = sqrt(pow(a,2)+pow(b, 2)+pow(c, 2))
         
-        updateText(text: "\(abs(distance))", atPosition: end.position)
+        updateText(text: "\(abs(round(distance*100))) mm", atPosition: end.position)
     }
     
     func updateText(text: String, atPosition position: SCNVector3) {
