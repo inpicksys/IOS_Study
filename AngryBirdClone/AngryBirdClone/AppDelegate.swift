@@ -1,13 +1,7 @@
-//
-//  AppDelegate.swift
-//  AngryBirdClone
-//
-//  Created by Misha Strutinsky on 09.06.2022.
-//
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?

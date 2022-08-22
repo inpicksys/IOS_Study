@@ -1,9 +1,4 @@
-//
-//  GameViewController.swift
-//  AngryBirdClone
-//
-//  Created by Misha Strutinsky on 09.06.2022.
-//
+
 
 import UIKit
 import SpriteKit
@@ -25,9 +20,9 @@ class GameViewController: UIViewController {
             }
             
             view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
+           
+            view.showsPhysics = true
+           
         }
     }
 
